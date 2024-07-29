@@ -1,0 +1,31 @@
+{
+    "name": "Seguidor de linha um sensor",
+    "description": "",
+    "dependencies": {
+        "core": "*",
+        "radio": "*",
+        "microphone": "*",
+        "pxt-kitronik-servo-lite": "github:kitronikltd/pxt-kitronik-servo-lite#v1.0.9",
+        "robotbit": "github:kittenbot/pxt-robotbit#v0.4.6",
+        "Huskylens": "github:dfrobot/pxt-dfrobot_huskylens#v2.0.6",
+        "maqueenPlusV2": "github:dfrobot/pxt-dfrobot_maqueenplus_v20#v2.2.0",
+        "pxt-robit": "github:tinkertanker/pxt-robit#v2.0.11",
+        "Seguidor de Linha": "github:marcelosestrem/seguidor-de-linha#v0.7.5"
+    },
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "targetVersions": {
+        "target": "6.0.28",
+        "targetId": "microbit"
+    },
+    "supportedTargets": [
+        "microbit"
+    ],
+    "preferredEditor": "blocksprj"
+}
